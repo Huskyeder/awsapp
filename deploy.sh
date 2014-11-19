@@ -144,6 +144,6 @@ case $1 in
         docker hosts active default
         ;;
     *)
-        echo "Usage: deploy.sh [up|down|deploy]"
+        echo "Usage: deploy.sh [up|down|deploy|reload-haproxy|rollback]"
         exit 1
 esac
